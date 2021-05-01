@@ -3,14 +3,14 @@
     <div>
       <section class="hero">
 	      <figure>
-		      <img src="images/hero.jpg" alt="">
+		      <g-image src="~/images/hero.jpg" alt="" />
 	      </figure>
 	      <div class="catch">
 		      <h1>There is no love sincerer than<br> the love of food.</h1>
 		      <p>食物を愛するよりも誠実な愛はない ― バーナード・ショー</p>
 	      </div>
 	      <div class="wave">
-		      <img src="images/wave.svg" alt="">
+		      <g-image src="~/images/wave.svg" alt="" />
 	      </div>
       </section>
       <section class="food">
@@ -19,7 +19,7 @@
 		      <div class="details">
 			      <div class="detail">
 				      <figure>
-					      <img src="images/fruit.jpg" alt="">
+					      <g-image src="~/images/fruit.jpg" alt="" />
 				      </figure>
 				      <h3>フルーツ</h3>
 				      <p>FRUIT</p>
@@ -27,7 +27,7 @@
 			      </div>
 			      <div class="detail">
 				      <figure>
-					      <img src="images/grain.jpg" alt="">
+					      <g-image src="~/images/grain.jpg" alt="" />
 				      </figure>
 				      <h3>穀物</h3>
 				      <p>GRAIN</p>
@@ -35,7 +35,7 @@
 			      </div>
 			      <div class="detail">
 				      <figure>
-					      <img src="images/beverage.jpg" alt="">
+					      <g-image src="~/images/beverage.jpg" alt="" />
 				      </figure>
 				      <h3>飲み物</h3>
 				      <p>BEVERAGE</p>
@@ -47,7 +47,7 @@
       <section class="photo">
 	      <h2 class="sr-only">Photo</h2>
 	      <figure>
-		      <img src="images/berry.jpg" alt="赤く熟したベリー">
+		      <g-image src="~/images/berry.jpg" alt="赤く熟したベリー" />
 	      </figure>
       </section>
     </div>

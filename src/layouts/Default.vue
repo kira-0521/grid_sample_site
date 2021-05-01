@@ -4,7 +4,7 @@
 	      <div class="container">
 		      <div class="site">
 			      <a href="base-index.html">
-				      <img src="images/logo.svg" alt="ESSENTIALS">
+				      <g-image src="~/images/logo (1).svg" alt="ESSENTIALS" />
 			      </a>
 		      </div>
 		      <nav class="nav">
@@ -20,7 +20,7 @@
 	      <div class="container">
 		      <div class="site">
 		      <a href="base-index.html">
-			      <img src="images/logo-w.svg" alt="ESSENTIALS">
+			      <g-image src="~/images/logo-w.svg" alt="ESSENTIALS" />
 			      <p>おいしい食材と食事を探求するサイト</p>
 		      </a>
 		      </div>
