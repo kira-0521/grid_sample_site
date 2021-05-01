@@ -1,15 +1,51 @@
 <template>
   <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
-      </nav>
-    </header>
-    <slot/>
+      <header class="header">
+	      <div class="container">
+		      <div class="site">
+			      <a href="base-index.html">
+				      <img src="images/logo.svg" alt="ESSENTIALS">
+			      </a>
+		      </div>
+		      <nav class="nav">
+			      <ul>
+				      <li><a href="base-index.html">TOP</a></li>
+				      <li><a href="base-about.html">ABOUT</a></li>
+			      </ul>
+		      </nav>
+	      </div>
+      </header>
+      <slot/>
+      <footer class="footer">
+	      <div class="container">
+		      <div class="site">
+		      <a href="base-index.html">
+			      <img src="images/logo-w.svg" alt="ESSENTIALS">
+			      <p>おいしい食材と食事を探求するサイト</p>
+		      </a>
+		      </div>
+		      <ul class="sns">
+			      <li>
+				      <a href="https://twitter.com/">
+					      <i class="fab fa-twitter"></i>
+					      <span class="sr-only">Twitter</span>
+				      </a>
+			      </li>
+			      <li>
+				      <a href="https://facebook.com/">
+					      <i class="fab fa-facebook-square"></i>
+					      <span class="sr-only">Facebook</span>
+				      </a>
+			      </li>
+			      <li>
+				      <a href="http://instagram.com/">
+					      <i class="fab fa-instagram"></i>
+					      <span class="sr-only">Instagram</span>
+				      </a>
+			      </li>
+		      </ul>
+	      </div>
+      </footer>
   </div>
 </template>
 
@@ -21,30 +57,3 @@ query {
 }
 </static-query>
 
-<style>
-body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
-  line-height: 1.5;
-}
-
-.layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
-}
-
-.nav__link {
-  margin-left: 20px;
-}
-</style>

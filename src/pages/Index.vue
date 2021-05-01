@@ -1,33 +1,64 @@
 <template>
   <Layout>
-
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
-
-    <h1>Hello, world!</h1>
-
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
-    </p>
-
-    <p class="home-links">
-      <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-    </p>
-
+    <div>
+      <section class="hero">
+	      <figure>
+		      <img src="images/hero.jpg" alt="">
+	      </figure>
+	      <div class="catch">
+		      <h1>There is no love sincerer than<br> the love of food.</h1>
+		      <p>食物を愛するよりも誠実な愛はない ― バーナード・ショー</p>
+	      </div>
+	      <div class="wave">
+		      <img src="images/wave.svg" alt="">
+	      </div>
+      </section>
+      <section class="food">
+	      <div class="container">
+		      <h2 class="bar">Food <span>Essence</span></h2>
+		      <div class="details">
+			      <div class="detail">
+				      <figure>
+					      <img src="images/fruit.jpg" alt="">
+				      </figure>
+				      <h3>フルーツ</h3>
+				      <p>FRUIT</p>
+				      <p>甘くてすっぱくておいしい果実たち。<br>旬のフルーツを満喫します。</p>
+			      </div>
+			      <div class="detail">
+				      <figure>
+					      <img src="images/grain.jpg" alt="">
+				      </figure>
+				      <h3>穀物</h3>
+				      <p>GRAIN</p>
+				      <p>食事の基本となる穀物。<br>毎日の活動のエネルギー源になります。</p>
+			      </div>
+			      <div class="detail">
+				      <figure>
+					      <img src="images/beverage.jpg" alt="">
+				      </figure>
+				      <h3>飲み物</h3>
+				      <p>BEVERAGE</p>
+				      <p>リラックスするのに欠かせない飲み物。<br>お気に入りの一杯はありますか？</p>
+			      </div>
+		      </div>
+	      </div>
+      </section>
+      <section class="photo">
+	      <h2 class="sr-only">Photo</h2>
+	      <figure>
+		      <img src="images/berry.jpg" alt="赤く熟したベリー">
+	      </figure>
+      </section>
+    </div>
   </Layout>
 </template>
 
 <script>
 export default {
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'titleいじれるよ'
   }
 }
 </script>
 
-<style>
-.home-links a {
-  margin-right: 1rem;
-}
-</style>
