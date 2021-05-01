@@ -13,7 +13,7 @@ module.exports = {
       use: "@gridsome/source-filesystem",
       options: {
         name: 'images',
-        path: `${__dirname}/src/images`
+        path: `/src/images`
       },
     },
   ]
