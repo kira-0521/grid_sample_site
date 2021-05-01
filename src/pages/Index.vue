@@ -7,7 +7,7 @@
 	      </figure>
 	      <div class="catch">
 		      <h1>There is no love sincerer than<br> the love of food.</h1>
-		      <p>食物を愛するよりも誠実な愛はある ― バーナード・ショー</p>
+		      <p>食物を愛するよりも誠実な愛はある ― バーナード・ジョーー</p>
 	      </div>
 	      <div class="wave">
 		      <g-image src="~/images/wave.svg" alt="" />
